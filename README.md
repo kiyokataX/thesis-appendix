@@ -1,8 +1,8 @@
 # Public-Key Cryptography from Scratch
 
-> 上海理工大学数学与应用数学专业 2026 届本科毕业论文《公钥密码体制及其应用》的配套代码库。
+> 数学与应用数学专业本科毕业论文配套代码库。
 >
-> Companion code for the undergraduate thesis *Public-key Cryptosystems and Their Applications* (USST, 2026).
+> Companion code for an undergraduate thesis on public-key cryptography.
 
 本项目从纯数学定义出发，独立实现了主流公钥密码算法的 Python 底层代码——不依赖任何第三方密码学库——并通过真实比特币交易验签与极简区块链原型完成端到端验证。
 
@@ -124,14 +124,6 @@ python main.py ecdsa        # 等价于 experiments/btc_verify_demo
 - Schnorr 实现为抽象版，非 BIP-340 完整实现
 
 真实系统中的密码学功能请使用 OpenSSL、libsecp256k1、BoringSSL 等经过审计的成熟实现。
-
-## 关于这篇论文
-
-- **题目**：公钥密码体制及其应用 / *Public-key Cryptosystems and Their Applications*
-- **作者**：饶曜涵
-- **学校**：上海理工大学 理学院 数学与应用数学专业
-- **导师**：吴宝丰
-- **答辩**：2026-05
 
 ## License
 
