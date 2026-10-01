@@ -4,7 +4,6 @@
 流程: 创建账户 -> 签名交易 -> 加入交易池 -> 矿工打包 -> 工作量证明 -> 整链验证。
 
 用法:
-    cd crypto_thesis
     python -m experiments.toy_chain_demo
 """
 from __future__ import annotations

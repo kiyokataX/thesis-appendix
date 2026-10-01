@@ -8,7 +8,6 @@
     Level 3 (真实 BTC tx): 抓取一笔 P2PKH 交易, 用本文实现重构 sighash 并验证签名
 
 用法:
-    cd crypto_thesis
     python -m experiments.btc_verify_demo                 # 仅 Level 1 + Level 2
     python -m experiments.btc_verify_demo --txid <hex>    # 三层都跑
 """
@@ -100,7 +99,7 @@ def level2_cross_lib() -> None:
     print(f"  本文签名 -> cryptography 验签: {valid2}")
     assert valid2
 
-    print("[OK] 双向跨库验证通过 - 本文 secp256k1 + ECDSA 与工业实现等价")
+    print("[OK] 双向跨库验证通过 - 本文 secp256k1 + ECDSA 与 OpenSSL 实现结果一致")
 
 
 # ---------------------------------------------------------------------

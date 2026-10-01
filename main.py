@@ -57,7 +57,6 @@ def print_guide() -> None:
   src/          算法实现
   tests/        单元测试，也是用法示例
   experiments/  论文实验脚本
-  studies/      学习和教材习题代码
 """
     )
 
